@@ -292,6 +292,7 @@ Dynamite: High-performance gene calling across the tree of life Rust.
 8. Chan PP, Lowe TM. tRNAscan-SE 2.0: improved detection and functional classification of transfer RNA genes. Nucleic Acids Res. 2019;47(16):e76. [tRNAscan](https://doi.org/10.1093/nar/gkz647).
 9. Wright F. The 'effective number of codons' used in a gene. Gene. 1990;87(1):23-29. [Gene](https://doi.org/10.1016/0378-1119(90)90491-9).
 10. Seemann T. Barrnap: BAsic Rapid Ribosomal RNA Predictor Internet. 2013 cited 2026 Jun 15.[Barrnap](https://github.com/tseemann/barrnap).
+11. Seemann T. Prokka: rapid prokaryotic genome annotation Bioinformatics 2014 Jul 15;30(14):2068-9. [Prokka](https://doi.org/10.1093/bioinformatics/btu153)
 
 </details>
 
