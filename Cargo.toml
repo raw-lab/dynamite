@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/dynamite-core",
+    "crates/dynamite-cli",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.75"
+license = "GPL-3.0-or-later"
+authors = ["Richard Allen White III <rwhit101@charlotte.edu>"]
+repository = "https://github.com/raw-lab/dynamite"
+homepage = "https://github.com/raw-lab/dynamite"
+description = "DYNAMITE: an ORF / gene caller for all domains of life — phages, viruses, giant viruses, bacteria and archaea."
+
+[workspace.dependencies]
+anyhow = "1.0"
+clap = { version = "=4.5.4", default-features = false, features = ["std", "derive", "help", "usage", "error-context"] }
+rayon = "1.10"
+flate2 = "1.0"
+
+# Small, fast, optimised release binaries in the RAW-lab house style:
+# fat LTO, single codegen unit, panic=abort, symbols stripped.
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
