@@ -17,6 +17,7 @@
 ### an ORF / gene caller for **all domains of life**
 
 [![Rust](https://img.shields.io/badge/Rust-1.85%2B-orange?logo=rust)](https://www.rust-lang.org/)
+![License](https://img.shields.io/badge/license-CC_BY--NC_4.0-blue)
 [![Version](https://img.shields.io/badge/version-1.0.0-success)](https://github.com/raw-lab/dynamite)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)](https://github.com/raw-lab/dynamite)
 [![Single binary](https://img.shields.io/badge/single%20binary-~1.3%20MB-brightgreen)](https://github.com/raw-lab/dynamite)
@@ -281,18 +282,16 @@ Dynamite: High-performance gene calling across the tree of life Rust.
 **We are on the live on the shoulders of giants. Dynamite was inspired by decades of excellent work for protein open reading frame calling. Please cite when ever possible**.
 
 
-1. Hyatt D, Chen GL, LoCascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010;11:119. (Prodigal)[https://doi.org/10.1186/1471-2105-11-119].
+1. Hyatt D, Chen GL, LoCascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010;11:119. [Prodigal](https://doi.org/10.1186/1471-2105-11-119).
 2. Camargo AP, Roux S, Schulz F, Babinski M, Xu Y, Hu B, et al. Identification of mobile genetic elements with geNomad. Nat Biotechnol. 2024;42(8):1303-1312. [Prodigalgv](https://doi.org/10.1038/s41587-023-01953-y).
 3. McNair K, Zhou C, Dinsdale EA, Souza B, Edwards RA. PHANOTATE: a novel approach to gene identification in phage genomes. Bioinformatics. 2019;35(22):4537-4542. [PHANOTATE](https://doi.org/10.1093/bioinformatics/btz265).
 4. Besemer J, Lomsadze A, Borodovsky M. GeneMarkS: a self-training method for prediction of gene starts in microbial genomes. Nucleic Acids Res. 2001;29(12):2607-2618. [Genemark](https://doi.org/10.1093/nar/29.12.2607).
 5. Stanke M, Waack S. Gene prediction with a hidden Markov model and a new intron submodel. Bioinformatics. 2003;19 Suppl 2:ii215-ii225. [HHM](https://doi.org/10.1093/bioinformatics/btg1080).
-6. Rho M, Tang H, Ye Y. FragGeneScan: predicting genes in short and error-prone reads. Nucleic Acids Res. 2010;38(20):e191. Available from: https://doi.org/10.1093/nar/gkq747.
-7. Van der Jeugt F, Dawyndt P, Mesuere B. FragGeneScanRs: faster gene prediction for short reads. BMC Bioinformatics. 2022;23:198. Available from: https://doi.org/10.1186/s12859-022-04707-x.
-8. Chan PP, Lowe TM. tRNAscan-SE 2.0: improved detection and functional classification of transfer RNA genes. Nucleic Acids Res. 2019;47(16):e76. Available from: https://doi.org/10.1093/nar/gkz647.
+6. Rho M, Tang H, Ye Y. FragGeneScan: predicting genes in short and error-prone reads. Nucleic Acids Res. 2010;38(20):e191. [FGS](https://doi.org/10.1093/nar/gkq747).
+7. Van der Jeugt F, Dawyndt P, Mesuere B. FragGeneScanRs: faster gene prediction for short reads. BMC Bioinformatics. 2022;23:198. [FGS Rust](https://link.springer.com/article/10.1186/s12859-022-04736-5).
+8. Chan PP, Lowe TM. tRNAscan-SE 2.0: improved detection and functional classification of transfer RNA genes. Nucleic Acids Res. 2019;47(16):e76. [tRNAscan](https://doi.org/10.1093/nar/gkz647).
 9. Wright F. The 'effective number of codons' used in a gene. Gene. 1990;87(1):23-29. [Gene](https://doi.org/10.1016/0378-1119(90)90491-9).
-10. Seemann T. Barrnap: BAsic Rapid Ribosomal RNA Predictor [Internet]. 2013 [cited 2026 Jun 15].[Barrnap](https://github.com/tseemann/barrnap).
-11. Van der Jeugt F, Dawyndt P, Mesuere B. FragGeneScanRs: faster gene prediction for short reads. BMC Bioinformatics. 2022 May 28;23(1):198. [FGS Rust](https://link.springer.com/article/10.1186/s12859-022-04736-5).
-
+10. Seemann T. Barrnap: BAsic Rapid Ribosomal RNA Predictor Internet. 2013 cited 2026 Jun 15.[Barrnap](https://github.com/tseemann/barrnap).
 
 </details>
 
