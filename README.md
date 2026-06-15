@@ -268,9 +268,6 @@ DYNAMITE is faithful **in spirit** to its namesakes; some engines are deliberate
 
 </details>
 
-<details>
-<summary>📚 <b>Citations</b></summary>
-
 # 📖 Citation
 
 If you use **Dynamite** in published work, please cite:
@@ -296,7 +293,6 @@ Dynamite: High-performance gene calling across the tree of life Rust.
 10. Seemann T. Barrnap: BAsic Rapid Ribosomal RNA Predictor [Internet]. 2013 [cited 2026 Jun 15].[Barrnap](https://github.com/tseemann/barrnap).
 11. Van der Jeugt F, Dawyndt P, Mesuere B. FragGeneScanRs: faster gene prediction for short reads. BMC Bioinformatics. 2022 May 28;23(1):198. [FGS Rust](https://link.springer.com/article/10.1186/s12859-022-04736-5).
 
-```
 
 </details>
 
