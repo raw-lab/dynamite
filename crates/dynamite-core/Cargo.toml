@@ -1,0 +1,33 @@
+[package]
+name = "dynamite-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "Core gene-calling algorithms for DYNAMITE: PHANOTATE-style graph engine, Prodigal/Prodigal-GV/-meta dynamic-programming engine, GeneMark- and FragGeneScan-style Markov engines, an AUGUSTUS-style eukaryotic caller, plus six-frame translation, codon statistics and heuristic tRNA/rRNA detection."
+
+[lib]
+name = "dynamite_core"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow = { workspace = true }
+rayon = { workspace = true }
+flate2 = { workspace = true }
+strum = "=0.21.0"
+strum_macros = "=0.21.0"
+thiserror = "1.0"
+# Optional: RAW-lab genome-statistics crate (Castro U50/UG50, 6-frame and
+# FragGeneScan codon density, etc). Requires Rust 1.85+ (polars). DYNAMITE's
+# `codon` module reimplements the codon-density / RSCU / ENC subset natively, so
+# this is OFF by default and the default build stays toolchain-light.
+rustyomestats = { version = "0.2", optional = true }
+
+[features]
+default = []
+# Enable to make the rustyomestats crate available alongside DYNAMITE's native
+# codon statistics (for its broader assembly-metrics suite). Rust 1.85+.
+rustyomestats = ["dep:rustyomestats"]
