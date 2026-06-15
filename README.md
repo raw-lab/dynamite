@@ -17,7 +17,6 @@
 ### an ORF / gene caller for **all domains of life**
 
 [![Rust](https://img.shields.io/badge/Rust-1.85%2B-orange?logo=rust)](https://www.rust-lang.org/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-success)](https://github.com/raw-lab/dynamite)
 [![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)](https://github.com/raw-lab/dynamite)
 [![Single binary](https://img.shields.io/badge/single%20binary-~1.3%20MB-brightgreen)](https://github.com/raw-lab/dynamite)
@@ -279,7 +278,9 @@ If you use **RustyOmeStats** in published work, please cite:
 ```text
 White III RA et al.
 Dynamite: High-performance gene calling across the tree of life Rust.
+```
 
+```
 We are on the live on the shoulders of giants. Dynamite was inspired by decades of excellent work for protein open reading frame calling. Please cite when ever possible.
 
 1. Hyatt D, Chen GL, LoCascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010;11:119. [Prodigal](https://doi.org/10.1186/1471-2105-11-119).
