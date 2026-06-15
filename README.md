@@ -272,60 +272,61 @@ DYNAMITE is faithful **in spirit** to its namesakes; some engines are deliberate
 <details>
 <summary>📚 <b>Citations</b></summary>
 
-```bibtex
-@article{hyatt2010prodigal,
-  title={Prodigal: prokaryotic gene recognition and translation initiation site identification},
-  author={Hyatt, Doug and Chen, Gwo-Liang and LoCascio, Philip F and Land, Miriam L and Larimer, Frank W and Hauser, Loren J},
-  journal={BMC Bioinformatics}, volume={11}, pages={119}, year={2010}}
+# 📖 Citation
 
-@article{camargo2023genomad,
-  title={Identification of mobile genetic elements with geNomad},
-  author={Camargo, Antonio Pedro and others}, journal={Nature Biotechnology}, year={2023},
-  note={Prodigal-GV: alternative genetic codes for giant viruses and crassphages}}
+If you use **RustyOmeStats** in published work, please cite:
 
-@article{mcnair2019phanotate,
-  title={PHANOTATE: a novel approach to gene identification in phage genomes},
-  author={McNair, Katelyn and Zhou, Carol and Dinsdale, Elizabeth A and Souza, Brian and Edwards, Robert A},
-  journal={Bioinformatics}, volume={35}, number={22}, pages={4537--4542}, year={2019}}
+```text
+White III RA et al.
+Dynamite: High-performance gene calling across the tree of life Rust.
 
-@article{besemer2001genemarks,
-  title={GeneMarkS: a self-training method for prediction of gene starts in microbial genomes},
-  author={Besemer, John and Lomsadze, Alexandre and Borodovsky, Mark},
-  journal={Nucleic Acids Research}, volume={29}, number={12}, pages={2607--2618}, year={2001}}
+We are on the live on the shoulders of giants. Dynamite was inspired by decades of excellent work for protein open reading frame calling. Please cite when ever possible.
 
-@article{stanke2003augustus,
-  title={Gene prediction with a hidden Markov model and a new intron submodel},
-  author={Stanke, Mario and Waack, Stephan},
-  journal={Bioinformatics}, volume={19}, number={suppl_2}, pages={ii215--ii225}, year={2003}}
+1. Hyatt D, Chen GL, LoCascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010;11:119. [Prodigal](https://doi.org/10.1186/1471-2105-11-119).
+2. Camargo AP, Roux S, Schulz F, Babinski M, Xu Y, Hu B, et al. Identification of mobile genetic elements with geNomad. Nat Biotechnol. 2024;42(8):1303-1312. [Prodigalgv](https://doi.org/10.1038/s41587-023-01953-y).
+3. McNair K, Zhou C, Dinsdale EA, Souza B, Edwards RA. PHANOTATE: a novel approach to gene identification in phage genomes. Bioinformatics. 2019;35(22):4537-4542. [PHANOTATE](https://doi.org/10.1093/bioinformatics/btz265).
+4. Besemer J, Lomsadze A, Borodovsky M. GeneMarkS: a self-training method for prediction of gene starts in microbial genomes. Nucleic Acids Res. 2001;29(12):2607-2618. [Genemark](https://doi.org/10.1093/nar/29.12.2607).
+5. Stanke M, Waack S. Gene prediction with a hidden Markov model and a new intron submodel. Bioinformatics. 2003;19 Suppl 2:ii215-ii225. [HHM](https://doi.org/10.1093/bioinformatics/btg1080).
+6. Rho M, Tang H, Ye Y. FragGeneScan: predicting genes in short and error-prone reads. Nucleic Acids Res. 2010;38(20):e191. Available from: https://doi.org/10.1093/nar/gkq747.
+7. Van der Jeugt F, Dawyndt P, Mesuere B. FragGeneScanRs: faster gene prediction for short reads. BMC Bioinformatics. 2022;23:198. Available from: https://doi.org/10.1186/s12859-022-04707-x.
+8. Chan PP, Lowe TM. tRNAscan-SE 2.0: improved detection and functional classification of transfer RNA genes. Nucleic Acids Res. 2019;47(16):e76. Available from: https://doi.org/10.1093/nar/gkz647.
+9. Wright F. The 'effective number of codons' used in a gene. Gene. 1990;87(1):23-29. [Gene](https://doi.org/10.1016/0378-1119(90)90491-9).
+10. Seemann T. Barrnap: BAsic Rapid Ribosomal RNA Predictor [Internet]. 2013 [cited 2026 Jun 15].[Barrnap](https://github.com/tseemann/barrnap).
 
-@article{rho2010fraggenescan,
-  title={FragGeneScan: predicting genes in short and error-prone reads},
-  author={Rho, Mina and Tang, Haixu and Ye, Yuzhen},
-  journal={Nucleic Acids Research}, volume={38}, number={20}, pages={e191}, year={2010}}
-
-@article{vanderjeugt2022fraggenescanrs,
-  title={FragGeneScanRs: faster gene prediction for short reads},
-  author={Van der Jeugt, Felix and Dawyndt, Peter and Mesuere, Bart},
-  journal={BMC Bioinformatics}, volume={23}, pages={198}, year={2022}}
-
-@article{chan2019trnascanse2,
-  title={tRNAscan-SE 2.0: improved detection and functional classification of transfer RNA genes},
-  author={Chan, Patricia P and Lowe, Todd M},
-  journal={Nucleic Acids Research}, volume={47}, number={16}, pages={e76}, year={2019}}
-
-@article{wright1990enc,
-  title={The 'effective number of codons' used in a gene},
-  author={Wright, Frank}, journal={Gene}, volume={87}, number={1}, pages={23--29}, year={1990}}
-
-@misc{seemann2013barrnap,
-  title={barrnap: BAsic Rapid Ribosomal RNA Predictor},
-  author={Seemann, Torsten}, year={2013}, howpublished={\url{https://github.com/tseemann/barrnap}}}
 ```
 
 </details>
 
 ---
 
+
+# 🤝 Contributing
+
+We welcome:
+
+* 🧬 New approaches to call genes
+* ⚡ Performance optimizations
+* 📊 Visualization improvements
+* 🐍 Python plotting extensions
+* 🦀 Rust ecosystem integrations
+
+Pull requests and issues are encouraged.
+
+---
+
+# 📞 Support
+
+* 🐛 GitHub Issues:
+  - **Issues:** [Dynamite Issues](https://github.com/raw-lab/rustyomestats/issues)
+
+* 📧 Contact:
+  - **Email:** [Dr. Richard Allen White III](mailto:rwhit101@uncc.edu)
+  - If you have any questions or feedback, please feel free to get in touch by email.  </br>
+
+---
+
 <div align="center">
-<sub><b>DYNAMITE</b> · RAW Lab · Richard Allen White III · GPL-3.0-or-later · github.com/raw-lab/dynamite</sub>
-</div>
+
+# 🦀 Dynamite
+
+### *Fast. Parallel. Modern Bioinformatics .*
