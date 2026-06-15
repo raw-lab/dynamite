@@ -283,7 +283,7 @@ Dynamite: High-performance gene calling across the tree of life Rust.
 
 **We are on the live on the shoulders of giants. Dynamite was inspired by decades of excellent work for protein open reading frame calling. Please cite when ever possible**.
 
-```
+
 1. Hyatt D, Chen GL, LoCascio PF, Land ML, Larimer FW, Hauser LJ. Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics. 2010;11:119. (Prodigal)[https://doi.org/10.1186/1471-2105-11-119].
 2. Camargo AP, Roux S, Schulz F, Babinski M, Xu Y, Hu B, et al. Identification of mobile genetic elements with geNomad. Nat Biotechnol. 2024;42(8):1303-1312. [Prodigalgv](https://doi.org/10.1038/s41587-023-01953-y).
 3. McNair K, Zhou C, Dinsdale EA, Souza B, Edwards RA. PHANOTATE: a novel approach to gene identification in phage genomes. Bioinformatics. 2019;35(22):4537-4542. [PHANOTATE](https://doi.org/10.1093/bioinformatics/btz265).
