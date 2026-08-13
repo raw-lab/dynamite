@@ -1,1 +1,0 @@
-# fraggenescan rust hardcoded
